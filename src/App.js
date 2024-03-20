@@ -4,12 +4,13 @@ import Greet from './components/Greet'
 import Welcome from './components/Welcomee'
 import React, {Component} from 'react'
 import Hello from './components/Hello'
+import Message from './components/Message';
 
 class App extends Component {
   render () {
   return (
     <div className="App">
-      <Greet name="Ram"  hereoName="Batman" age="12"> 
+      {/* <Greet name="Ram"  hereoName="Batman" age="12"> 
       <p>This is children</p></Greet>
       <Greet name="Hari" heroName="Superman"> 
       <button>Action</button></Greet>
@@ -17,8 +18,9 @@ class App extends Component {
 
       <Welcome name="Ram"  hereoName="Batman" />
       <Welcome name="Hari" heroName="Superman"/>
-      <Welcome name="Shyam" heroName="Wonderful Woman" />
+      <Welcome name="Shyam" heroName="Wonderful Woman" /> */}
       
+      <Message />
      
     </div>
   )};
