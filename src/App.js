@@ -18,8 +18,8 @@ class App extends Component {
       <Greet name="Shyam" heroName="Wonderful Woman"></Greet>
 
       <Welcome name="Ram"  hereoName="Batman" />
-      <Welcome name="Hari" heroName="Superman"/>
-      <Welcome name="Shyam" heroName="Wonderful Woman" /> */}
+      <Welcome name="Hari" heroName="Superman"/> */}
+      <Welcome name="Shyam" heroName="Wonderful Woman" />
       
       {/* <Message /> */}
       {/* <Counter /> */}
