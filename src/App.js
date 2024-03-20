@@ -5,6 +5,7 @@ import Welcome from './components/Welcomee'
 import React, {Component} from 'react'
 import Hello from './components/Hello'
 import Message from './components/Message';
+import Counter from './components/Counter';
 
 class App extends Component {
   render () {
@@ -20,7 +21,8 @@ class App extends Component {
       <Welcome name="Hari" heroName="Superman"/>
       <Welcome name="Shyam" heroName="Wonderful Woman" /> */}
       
-      <Message />
+      {/* <Message /> */}
+      <Counter />
      
     </div>
   )};
