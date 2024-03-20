@@ -7,6 +7,7 @@ import Hello from './components/Hello'
 import Message from './components/Message';
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/Welcome.js/ClassClick';
 
 class App extends Component {
   render () {
@@ -25,7 +26,8 @@ class App extends Component {
       {/* <Message /> */}
       {/* <Counter /> */}
 
-      <FunctionClick />
+      {/* <FunctionClick /> */}
+      <ClassClick />
      
     </div>
   )};
