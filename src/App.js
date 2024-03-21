@@ -33,7 +33,7 @@ class App extends Component {
       {/* <ClassClick /> */}
       {/* <EventBind /> */}
       {/* <ParentComponent/> */}
-      <UserGreeting/>
+      <UserGreeting />
      
     </div>
   )};
