@@ -16,6 +16,7 @@ import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
 import styles from './appStyles.module.css'
 import './appStyles.css'
+import Form from './Form';
 
 class App extends Component {
   render () {
@@ -42,8 +43,9 @@ class App extends Component {
       {/* <NameList /> */}
       {/* <Stylesheet primary={false}/> */}
       {/* <Inline /> */}
-      <h1 className='error'>Error</h1>
-      <h1 className={styles.success}>Success</h1>
+      {/* <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1> */}
+      < Form />
      
     </div>
   )};
